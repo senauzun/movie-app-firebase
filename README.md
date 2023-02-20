@@ -1,6 +1,6 @@
 # movie-app-firebase
 
-
+> A movie app where users can access and create their own movie list.
 Five-paged movie list app
 
 ## ScreenShots
@@ -21,7 +21,10 @@ Five-paged movie list app
 
 ## Technologies
 
-- MVC
+- MVC Architecture
+- Modular Architecture
+- Responsive Design
+- UIKit
 - Firebase
 - CollectionView
 - Firebase
