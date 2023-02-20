@@ -94,20 +94,18 @@ class CreateMovieViewController: UIViewController , UIImagePickerControllerDeleg
         if titleText.text == "" || shortDescriptionText.text == "" || LongDescriptionText.text == "" || genreMenu.text == "" || releaseYearText.text == "" {
             makeAlert(titleInput: "Missing fields", messageInput: "All fields are required")
           
-            if titleText.text!.count  < 3 {
-                makeAlert(titleInput: "Create a valid title", messageInput: "Create a title with at least 3 characters.")
-                
-                if shortDescriptionText.text!.count < 3 {
-                    makeAlert(titleInput: "Create a valid short description ", messageInput: "Create a short description with at least 3 characters.")
-                    
-                    if LongDescriptionText.text!.count < 10 {
-                        makeAlert(titleInput: "Create a valid long description ", messageInput: "Create a long description with at least 10 characters.")
-                    
-                    }
-                
-                }
-                
-            }
+        }
+        else if titleText.text!.count  < 3 {
+            makeAlert(titleInput: "Create a valid title", messageInput: "Create a title with at least 3 characters.")
+            
+        }
+        else if shortDescriptionText.text!.count < 3 {
+            makeAlert(titleInput: "Create a valid short description ", messageInput: "Create a short description with at least 3 characters.")
+        
+        }
+        else if LongDescriptionText.text!.count < 10 {
+            makeAlert(titleInput: "Create a valid long description ", messageInput: "Create a long description with at least 10 characters.")
+        
         }
         
       else {
