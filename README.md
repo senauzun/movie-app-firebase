@@ -1,7 +1,8 @@
 # movie-app-firebase
 
 > A movie app where users can access and create their own movie list.
-Five-paged movie list app
+
+
 
 ## ScreenShots
 
@@ -12,6 +13,10 @@ Five-paged movie list app
 | Movie Details Screen| Edit Movie Screen |
 | ------------------- |  -----------------|
 <img src ="https://snipboard.io/fTk0Ht.jpg" widt=200 height=400>|<img src ="https://snipboard.io/fj4Wsh.jpg" widt=200 height=400>
+
+| Firebase Integration| 
+| ------------------- |  
+<img src ="https://snipboard.io/CQGzPZ.jpg" widt=200 height=400>|
 
 ## Features
 - [x] User can view a list of movies. 
