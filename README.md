@@ -3,6 +3,9 @@
 > A movie app where users can access and create their own movie list.
 
 
+*You can find the technology and features information about the project below.*
+
+
 
 ## ScreenShots
 
