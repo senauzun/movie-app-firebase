@@ -22,6 +22,10 @@
 - [x] User can view a list of movies. 
 - [x] User can view movie details by tapping on a cell.
 - [x] User sees an error message when they do not fil fields properly in "Create Movie Screen"
+- [x] Used SwiftPackageManager to connect frameworks and additional modules
+- [x] Used SDWebImage for asynchronous loading and caching of images
+- [x] Used Firestore for remote storage of user data
+- [x] Implemented UI via code (UIKit)
 
 
 ## Technologies
@@ -33,7 +37,7 @@
 - Firebase
 - CollectionView
 - Firebase
-- CocoaPods
+- Custom Button
 - SDWebImage
 - Gesture Recognizer
 - OOP
