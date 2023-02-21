@@ -26,6 +26,7 @@
 - [x] Used SDWebImage for asynchronous loading and caching of images
 - [x] Used Firestore for remote storage of user data
 - [x] Implemented UI via code (UIKit)
+- [x] Implemented UIPicker for choose release year
 
 
 ## Technologies
@@ -36,6 +37,7 @@
 - UIKit
 - Firebase
 - CollectionView
+- UIPickerView
 - Firebase
 - Custom Button
 - SDWebImage
